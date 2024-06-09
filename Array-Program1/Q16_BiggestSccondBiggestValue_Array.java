@@ -26,7 +26,7 @@ public class Q16_BiggestSccondBiggestValue_Array {
 		int seccondBiggest=a[0];
 		
 		for(int i=0;i<a.length;i++) {
-			if (a[i]>biggest) {
+			if (a[i]>biggest && a[i]!=seccondBiggest) {
 				seccondBiggest=biggest;
 				biggest=a[i];
 				
